@@ -21,7 +21,7 @@ header img {
   padding: .66rem 1rem .66rem .5rem;
 }
 
-header h2 {
+header h4 {
   font-size: 1rem;
   font-family: Helvetica;
 }
@@ -33,5 +33,54 @@ header h2 {
 
 /* Banner Content */
 .banner {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg")
+  padding-top: 9rem;
+  height: 25rem;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Container in Banner */
+.text-box {
+  width: 20rem;
+  padding: 2rem 3rem;
+  background-color: black;
+}
+
+.text-box h4 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: .25rem;
+}
+
+.text-box h1 {
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Navigation */
+nav {
+  background-color: firebrick;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-family: Helvetica;
+  font-size: 1rem;
+  padding: .75rem 0rem .75rem 0rem;
+}
+
+nav li {
+  display: inline;
+  padding-right: 2rem;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
 }
